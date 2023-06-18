@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+    {% block content %}
+
+    <div class="global-container" style="padding-top: 250px;">
+        <div class="card login-form">
+        <div class="card-body">
+            <h3 class="card-title text-centre">We have send an email to you</h3>
+            <div class="card-text text-centre">
+                please cheack your mail
+            </div style="color:blue;">
+            <div class="text-centre">
+            {% comment %} <a class="btn btn-primary" href="{% url 'login_attempt'%}" style="color:black;">login</a> {% endcomment %}
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    {% endblock  %}
